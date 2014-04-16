@@ -1,0 +1,26 @@
+# i like vim
+export EDITOR="vim"
+
+# keep more bash history
+export HISTSIZE=32768
+export HISTFILESIZE=$HISTSIZE
+export HISTCONTROL=ignoredups
+# don’t keep history of
+export HISTIGNORE="ls:cd:cd -:pwd:exit:date:* --help"
+
+# set language and file type
+export LANG="en_US"
+export LC_ALL="en_US.UTF-8"
+
+# colored man pages
+export LESS_TERMCAP_md=$(tput setaf 9)
+
+# keep screen after quitting less
+export LESS='iMRX'
+
+# make grep use colors
+export GREP_OPTIONS="--color=auto"
+
+# link casks in root Applications
+export HOMEBREW_CASK_OPTS="--appdir=/Applications"
+
