@@ -36,7 +36,7 @@ endif
 set undodir=$HOME/.vim/undo
 set undofile
 set undolevels=1000
-set undolevels=10000
+set undoreload=10000
 set wildmenu
 set wildmode=longest:list,full
 set wildignore+=*DS_Store*
