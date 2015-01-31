@@ -2,9 +2,6 @@ colorscheme molokai
 set nocompatible
 syntax on
 set confirm
-set mouse=a
-set visualbell
-set t_vb=
 set ruler
 set laststatus=2
 filetype indent plugin on
@@ -14,7 +11,6 @@ set nomodeline
 set encoding=utf-8 nobomb
 set hlsearch
 set showmode
-set number
 set nowrap
 set incsearch
 set ignorecase
@@ -30,7 +26,6 @@ set smarttab
 set shiftwidth=2
 set softtabstop=2
 set expandtab
-"set tabstop=2
 set showmatch
 set whichwrap=b,s,h,l,<,>,[,]
 set list listchars=tab:\ \ ,trail:·
