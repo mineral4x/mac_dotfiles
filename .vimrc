@@ -4,7 +4,6 @@ syntax on
 set confirm
 set ruler
 set laststatus=2
-filetype indent plugin on
 set viminfo='10,\"100,:20,%,n~/.viminfo
 "clipboard sharing
 "set clipboard=unnamed
