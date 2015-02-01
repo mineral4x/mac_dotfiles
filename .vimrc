@@ -1,4 +1,4 @@
-colorscheme molokai
+colorscheme flatcolor
 set nocompatible
 syntax on
 set confirm
@@ -6,7 +6,8 @@ set ruler
 set laststatus=2
 filetype indent plugin on
 set viminfo='10,\"100,:20,%,n~/.viminfo
-set clipboard=unnamed
+"clipboard sharing
+"set clipboard=unnamed
 set nomodeline
 set encoding=utf-8 nobomb
 set hlsearch
@@ -17,11 +18,8 @@ set ignorecase
 set smartcase
 set scrolloff=5
 set scrolljump=5
-" Allow backspace in insert mode
 set backspace=indent,eol,start
 set autoread
-set autoindent
-set smartindent
 set smarttab
 set shiftwidth=2
 set softtabstop=2
