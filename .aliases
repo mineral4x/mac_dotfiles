@@ -67,8 +67,10 @@ alias cleanup="find . -type f -name '*.DS_Store' -ls -delete"
 alias emptytrash="sudo rm -rfv /Volumes/*/.Trashes; sudo rm -rfv ~/.Trash; sudo rm -rfv /private/var/log/asl/*.asl"
 
 # Show/hide hidden files in Finder
-alias show="defaults write com.apple.finder AppleShowAllFiles -bool true && killall Finder"
-alias hide="defaults write com.apple.finder AppleShowAllFiles -bool false && killall Finder"
+alias show="chflags nohidden"
+alias hide="chflags hidden"
+alias showall="defaults write com.apple.finder AppleShowAllFiles -bool true && killall Finder"
+alias hideall="defaults write com.apple.finder AppleShowAllFiles -bool false && killall Finder"
 
 # Dos2Unix
 alias d2u="tr '\r' '\n'"
