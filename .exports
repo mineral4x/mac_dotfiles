@@ -18,9 +18,5 @@ export LESS_TERMCAP_md=$(tput setaf 9)
 # keep screen after quitting less
 export LESS='iMRXFx4'
 
-# make grep use colors
-export GREP_OPTIONS="--color=auto"
-
 # link casks in root Applications
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
-
